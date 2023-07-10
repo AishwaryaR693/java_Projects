@@ -1,0 +1,5 @@
+package CustomeExceptions;
+
+public class StudentNotFoundException {
+
+}

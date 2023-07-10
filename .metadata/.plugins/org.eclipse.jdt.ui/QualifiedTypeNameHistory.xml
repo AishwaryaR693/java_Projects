@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="bank_project_main.Bank"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="custom_exceptions.InvallidAmmountException"/>
+    <fullyQualifiedTypeName name="custom_exceptions.InvalidChoiceException"/>
+    <fullyQualifiedTypeName name="calculator_project_Main.Solution_Calculator"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="calculator_project_Main.CalculatorImplement"/>
+</qualifiedTypeNameHistroy>

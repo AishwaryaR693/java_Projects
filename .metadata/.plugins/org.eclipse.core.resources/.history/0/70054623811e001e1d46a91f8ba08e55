@@ -1,0 +1,33 @@
+package calculator_project_Main;
+
+import java.util.Scanner;
+
+public class Solution_Calculator {
+
+	public static void main(String[] args) {
+
+		Scanner scan=new Scanner(System.in);
+
+		//UPCASTING
+		Calculator c=new CalculatorImplement();
+
+		//MENU DRIVEN PORGAMM
+
+		while(true)
+		{
+			System.out.println("1:addition \n2 : substraction \3 : multiplication \n4 : division  \5 : Exite");
+
+			int choice =scan.nextInt();
+			
+			switch (choice) {
+		
+			
+			default:
+			}
+			
+			
+		}
+		}
+
+	}
+}

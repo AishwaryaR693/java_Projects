@@ -1,0 +1,47 @@
+package bank_project_main;
+
+public class Bank_implement implements Bank{
+
+
+	double bal;
+
+	public Bank_implement(int bal)
+	{
+		this.bal=bal; //constructer
+	}
+
+	@Override
+	public void deposite(double ammount) {
+		System.out.println("Deposited Ammount is ="+ammount);
+		bal=bal+ammount;
+		System.out.println("Ammount Deposited SuccesFully");
+	}
+
+	@Override
+	public void withdrow(double ammount) {
+		if(bal>ammount)
+		{
+			System.out.println("Withdrowal Ammount is = "+ammount);
+			bal-=ammount;
+			System.out.println("Ammount withdraw SuccesFully *'..'* ");
+		}
+		else  // Exception
+		{
+			try {
+				throw new InvalidAmmoun
+			} catch (Exception e) {
+				// TODO: handle exception
+			}
+
+
+		}
+	}
+
+	@Override
+	public double getbal() {
+		return bal;
+	}
+
+
+
+}
